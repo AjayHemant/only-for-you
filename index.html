@@ -48,8 +48,8 @@
         let i = 0;
         const interval = setInterval(() => {
             if (i < 6000) {
-                const x = hearta(i) * 15;
-                const y = heartb(i) * 15;
+                const x = hearta(i) * 10;
+                const y = heartb(i) * 10;
 
                 ctx.lineTo(x, -y); 
                 ctx.stroke();
@@ -58,7 +58,7 @@
             } else {
                 clearInterval(interval); 
             }
-        }, 1); 
+        }, 70); 
     </script>
 </body>
 </html>
